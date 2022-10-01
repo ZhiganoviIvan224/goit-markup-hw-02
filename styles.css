@@ -1,0 +1,119 @@
+/* Головний колір сайту #F5F5F5; */
+/* Додатковий колір сайту  #2F303A */
+/* Колір кнопки #2196F3 */
+body {
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Логотип сайту */
+.logo-Web {
+    color: #2196F3;
+    width: 145px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo-studio {
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+/* Силки в шапці сайту*/
+.site-nav a {
+    color: #212121;
+}
+
+.auth-nav a {
+    color: #212121;
+}
+
+.site-nav .link:hover {
+    color: #2196F3;
+}
+.auth-nav a:hover {
+    color: #2196F3;
+}
+
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.auth-nav a:focus {
+    color: #2196F3;
+}
+
+/* Заголовок,Кнопка*/
+.section-hero {
+    background-color: #2F303A;
+    ;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+.title-button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.title-button:hover,:focus{
+    background-color: #2195f38c;
+}
+
+/*Заголовки , текст */
+.section-content{
+    color: #212121;
+    width: 366px;
+    height: 42px;
+}
+.content-p{
+    color:#757575 ;
+    width: 270px;
+    height: 48px;
+}
+.name{
+    color: #212121;;
+}
+.name-p{
+    color: #757575;;
+    width: 270px;
+    height: 48px;
+}
+/*Кінець сайту*/
+.footer-logo{
+    background-color: #2F303A;
+}
+.footer-web{
+    color:#2196F3;
+    width: 145px;
+    font-weight: 700;
+}
+.footer-studio{
+    color: #000000;;
+    width: 145px;
+    font-weight: 700;
+}
+.address-email,.address-tel{
+    color: #000000;
+
+}
+ .address-email:hover,:focus{
+    color: #2196F3;
+}
+ .address-tel:hover,:focus{
+    color: #2196F3;
+}
+.footer-p{
+    color: #FFFFFF;
+}
