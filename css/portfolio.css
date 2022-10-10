@@ -1,62 +1,55 @@
 /* Головний колір сайту #F5F5F5; */
 /* Додатковий колір сайту  #2F303A */
 /* Колір кнопки #2196F3 */
+
+:root{
+    --second-font:'Roboto', sans-serif;
+    --accent-color:#FFFFFF;
+    --link-hover-color:#2196F3;
+}
 body {
-    background-color: #FFFFFF;
+    background-color:var(--accent-color);
     font-family: 'Roboto', sans-serif;
 }
 ul {
     list-style: none;
 }
-/*Шапка сайту*/
+a{
+    text-decoration: none;
+}
+/*Header*/
 .header{
-    background: #FFFFFF;
+    background: var(--accent-color);
 }
 .header-logo-web{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-/* identical to box height */
-
+    line-height: calc(31 /26);
     letter-spacing: 0.03em;
-
     color: #2196F3; 
 }
 .header-logo-studio{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-/* identical to box height */
-
+    line-height: calc(31 /26);
     letter-spacing: 0.03em;
     color: black;
 }
-.header-logo-web:hover,
-.header-logo-studio:hover,
-.header-logo-web:focus,
-.header-logo-studio:focus{
-    color: #2196F3;
-}
 .link-nav a{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 /14);
     letter-spacing: 0.02em;
-    
     color: #212121;
 }
 .link-nav a:hover,.link-nav a:focus{
-    color: #2196F3;
+    color: var(--link-hover-color);
 }
 .link-amail {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -64,8 +57,7 @@ ul {
     color: #757575;
 }
 .link-tel{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -76,48 +68,46 @@ ul {
 .link-tel:hover,
 .link-amail:focus,
 .link-tel:focus{
-    color: #2196F3;
+    color: var(--link-hover-color);
 }
-/* Головна секція ,Кнопки,фото*/
+/*Main,buttons*/
 .button{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #212121;
+    cursor: pointer;
 }
 .button:hover,.button:focus{
-    background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;  
+    background: var(--link-hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;  
 }
 .main-title{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: calc(36 /18);
     letter-spacing: 0.06em;
     color: #212121;
 }
+
 .main-p{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30 /16);
     letter-spacing: 0.03em;
 
     color: #757575; 
 }
-/*Кінцева шапка сайту*/
+/*footer*/
 .footers{
     background: #2F303A;
 }
 .footer-web{
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -125,29 +115,21 @@ ul {
 }
 .footer-studio{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color:#FFFFFF;
-}
-.footer-studio:hover,
-.footer-web:hover,
-.footer-studio:focus,
-.footer-web:focus{
-  color: #2196F3;
+    color:var(--accent-color);
 }
 .address-p{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: var(--second-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em; 
-    color: #FFFFFF;
+    color: var(--accent-color);
 }
 .address-mail,.address-tel{
-    font-family: 'Roboto';
+    font-family: var(--second-font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -159,5 +141,5 @@ ul {
 .address-tel:hover,
 .address-mail:focus,
 .address-tel:focus{
-    color: #2196F3;
+    color: var(--link-hover-color);
 }
