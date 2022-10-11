@@ -52,7 +52,7 @@ a{
     font-family: var(--second-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 /14);
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -60,7 +60,7 @@ a{
     font-family: var(--second-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 /14);
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -75,7 +75,7 @@ a{
     font-family: var(--second-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: calc(26 /16);
     color: #212121;
     cursor: pointer;
 }
@@ -110,21 +110,22 @@ a{
     font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31 /26);
     color: #2196F3;
 }
 .footer-studio{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31 /26);
     color:var(--accent-color);
 }
 .address-p{
     font-family: var(--second-font);
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 /14);
     letter-spacing: 0.03em; 
     color: var(--accent-color);
 }
@@ -133,7 +134,7 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 /14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
