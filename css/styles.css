@@ -2,6 +2,7 @@
 /* Додатковий колір сайту  #2F303A */
 /* Колір кнопки #2196F3 */
 :root{
+    --first-font:'Raleway';
     --second-font:'Roboto', sans-serif;
     --accent-color:#FFFFFF;
     --link-hover-color:#2196F3;
@@ -21,7 +22,7 @@ header{
     background: var(--accent-color);
 }
 .logo-web{
-    font-family: 'Raleway';
+    font-family: var(--first-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 /26);
@@ -29,7 +30,7 @@ header{
     color: var(--link-hover-color);
 }
 .logo-studio{
-    font-family: 'Raleway';
+    font-family: var(--first-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 /26);
@@ -162,14 +163,14 @@ color: #757575;
     background: #2F303A;
 }
 .footer-web{
-    font-family: 'Raleway';
+    font-family: var(--first-font);
     font-size: 26px;
     line-height: calc(31 /26);
     letter-spacing: 0.03em;
     color: var(--link-hover-color);
 }
 .footer-studio{
-    font-family: 'Raleway';
+    font-family: var(--first-font);
     font-size: 26px;
     line-height: calc(31 /26);
     letter-spacing: 0.03em;
