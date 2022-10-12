@@ -78,6 +78,7 @@ color: #757575;
 .hero-title{
     font-family: var(--second-font);
     font-size: 44px;
+    font-weight: 900;
     line-height: calc(60 /44);
     text-align: center;
     letter-spacing: 0.06em;
@@ -87,8 +88,9 @@ color: #757575;
 .title-button{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-weight: 700;
     font-size: 16px;
-    line-height: calc(40 /16);
+    line-height: calc(30 /16);
     display: flex;
     align-items: center;
     text-align: center;
@@ -111,6 +113,7 @@ color: #757575;
 }
 .section-content{
     font-family: var(--second-font);
+    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 /14);
     letter-spacing: 0.03em;
@@ -119,6 +122,7 @@ color: #757575;
 }
 .content-p{
     font-family: var(--second-font);
+    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 /14);
     letter-spacing: 0.03em;
@@ -126,6 +130,7 @@ color: #757575;
 }
 .how-work{
     font-family: var(--second-font);
+    font-weight: 700;
     font-size: 36px;
     line-height: calc(42 /36);
     text-align: center;
@@ -138,6 +143,7 @@ color: #757575;
 .team{
     font-family: var(--second-font);
     font-size: 36px;
+    font-weight: 700;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
@@ -145,6 +151,7 @@ color: #757575;
 }
 .name{
     font-family:var(--second-font);
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(19 /16);
     letter-spacing: 0.03em;
@@ -152,6 +159,7 @@ color: #757575;
 }
 .name-p{
     font-family: var(--second-font);
+    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 /16);
     letter-spacing: 0.03em;
@@ -164,6 +172,7 @@ color: #757575;
 }
 .footer-web{
     font-family: var(--first-font);
+    font-weight: 700;
     font-size: 26px;
     line-height: calc(31 /26);
     letter-spacing: 0.03em;
@@ -171,6 +180,7 @@ color: #757575;
 }
 .footer-studio{
     font-family: var(--first-font);
+    font-weight: 700;
     font-size: 26px;
     line-height: calc(31 /26);
     letter-spacing: 0.03em;
@@ -178,15 +188,17 @@ color: #757575;
 }
 .address-p{
     font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: calc(21 /14);
+    line-height: calc(24 /14);
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .address-email,.address-tel{
     font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: calc(21 /14);
+    line-height: calc(24 /14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }

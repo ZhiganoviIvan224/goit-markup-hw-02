@@ -72,6 +72,9 @@ a{
     color: var(--link-hover-color);
 }
 /*Main,buttons*/
+.section-btm-title{
+    background-color:var(--accent-color);
+}
 .button{
     font-family: var(--second-font);
     font-weight: 500;
