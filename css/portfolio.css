@@ -10,7 +10,7 @@
 }
 body {
     background-color:var(--accent-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--second-font);
 }
 ul {
     list-style: none;
